@@ -2,7 +2,6 @@
 .app {
   border: 3px solid rgb(117, 75, 20);
   height: 80vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
