@@ -1,0 +1,27 @@
+.die {
+  cursor: pointer;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.die.held {
+  background-color: lightgreen; /* Highlight held dice */
+  border: 2px solid green;
+}
+
+.dot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+}

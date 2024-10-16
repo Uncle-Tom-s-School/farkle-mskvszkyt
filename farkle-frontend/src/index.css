@@ -1,0 +1,113 @@
+
+.app {
+  border: 3px solid rgb(117, 75, 20);
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f3e5; 
+  font-family: "Times New Roman", Times, serif; 
+  color: #3e2a1c; 
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+  font-size: 1.7em;
+}
+
+
+.table {
+  background-color: #e1c6a6; 
+  border: 1px solid rgb(117, 75, 20);
+  border-radius: 8px; 
+  padding: 10px;
+  margin: 20px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+.score-board {
+  background-color: rgba(255, 255, 255, 0.8); 
+  width: 200px;
+  border: 2px solid rgb(117, 75, 20);
+  border-radius: 8px; 
+  padding: 10px;
+  position: absolute; 
+  top: 20px; 
+  right: 20px; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+.controls {
+  display: flex; 
+  gap: 10px; 
+  margin-top: 20px; 
+}
+
+
+.controls button {
+  background-color: #8e6f4f; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  padding: 10px 15px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s, transform 0.2s; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+
+.controls button:hover {
+  background-color: #c4936d; 
+  transform: translateY(-2px); 
+}
+
+
+.dice-display {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin: 20px 0;
+  height: 100px;
+  width: 400px; 
+}
+
+
+.die {
+  width: 50px; 
+  height: 50px; 
+  background-color: #e1c6a6; 
+  border: 2px solid rgb(117, 75, 20);
+  border-radius: 5px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin: 0 5px; 
+  cursor: pointer; 
+  transition: transform 0.3s, box-shadow 0.2s; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+.die.held {
+  background-color: #d4a36c; 
+  transform: scale(1.15); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+.dot-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.dot {
+  width: 10px; 
+  height: 10px; 
+  background-color: black; 
+  border-radius: 50%; 
+  margin: 1px; 
+}
